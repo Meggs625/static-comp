@@ -118,7 +118,7 @@ nav {
   height: 374px;
   width: 300px;
   margin: auto;
-
+  box-shadow: 6px 5px 5px #D3D3D3;
 }
 
 .card-header {
@@ -126,6 +126,70 @@ nav {
   height: 36%;
   display: flex;
   justify-content: space-between;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.arrow-container {
+  height: 3.5em;
+  width: 3.5em;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.arrow {
+  height: 2em;
+  width: 2em;  
+}
+
+.view-display {
+  margin: 15px;
+}
+
+.views {
+  color: #FFFFFF;
+  font-size: 0.75em;
+}
+
+.view-count {
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+.card1 {
+  background-image: url(./assets/Sunflowers.jpeg);
+}
+
+.card2 {
+  background-image: url(./assets/Bridge.jpeg);
+}
+
+.card3 {
+  background-image: url(./assets/Field.jpeg);
+}
+
+.card4 {
+  background-image: url(./assets/Seaside.jpeg);
+}
+
+.card5 {
+  background-image: url(./assets/Rocks.jpeg);
+}
+
+.card6 {
+  background-image: url(./assets/Sunset.jpeg);
+}
+
+.card7 {
+  background-image: url(./assets/Trees.jpeg);
+}
+
+.card8 {
+  background-image: url(./assets/Waterlillies.jpeg);  
 }
 
 .card-bottom {
@@ -135,63 +199,27 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 0px 10px;
+  padding: 0px 15px;
 }
 
-.arrow-container {
-  height: 3em;
-  width: 3em;
-  background-color: #FFFFFF;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.recipeint-name {
+  color: #6B6B6B;
+  font-weight: bold;
+  size: 1em;
 }
 
-.arrow {
-  height: 1.75em;
-  width: 1.75em;  
+.date {
+  color: #B8B9BA;
+  size: 0.75em
 }
 
-.card1 {
-  background-image: url(./assets/Sunflowers.jpeg);
-  background-size: cover;
+.link-box {
+  background: #EFEFEF;
+  color: #888888;
+  padding: 5px;
+  font-size: 0.75em;
 }
 
-.card2 {
-  background-image: url(./assets/Bridge.jpeg);
-  background-size: cover;
-}
-
-.card3 {
-  background-image: url(./assets/Field.jpeg);
-  background-size: cover;
-}
-
-.card4 {
-  background-image: url(./assets/Seaside.jpeg);
-  background-size: cover;
-}
-
-.card5 {
-  background-image: url(./assets/Rocks.jpeg);
-  background-size: cover;
-}
-
-.card6 {
-  background-image: url(./assets/Sunset.jpeg);
-  background-size: cover;
-}
-
-.card7 {
-  background-image: url(./assets/Trees.jpeg);
-  background-size: cover;
-}
-
-.card8 {
-  background-image: url(./assets/Waterlillies.jpeg);
-  background-size: cover;
-}
 
 /* ~~ Card grid section ~~ */
 
