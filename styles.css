@@ -1,5 +1,4 @@
 
-
 *,
 *:after,
 *:before {
@@ -20,7 +19,7 @@ body, html {
 
 .main-header{
   background: #2B2B2B;
-  height: 14vh;
+  height: 12vh;
   width: 100%;  
 }
 
