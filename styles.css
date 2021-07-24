@@ -1,1 +1,256 @@
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  background: #EFEFEF;
+}
+
+.main-header{
+  background: #2B2B2B;
+  height: 12vh;
+  width: 100%;  
+}
+
+main {
+  background: #EFEFEF;
+  height: 86vh;
+  width: 100%;
+}
+
+.logo-admin {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  width: 100%;
+}
+
+.admin-dropdown {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.admin-icon {
+  border: 2px solid #7F7F7F;
+  border-radius: 50%;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.admin-user {
+  color: #26A7E9;
+  font-size:0.75em;
+  margin: 0px 5px;
+}
+
+.drop-down {
+  height: 0.75em;
+  width: 0.75em;
+}
+
+nav {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.branding {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  width: 40%;
+  height: 100%;
+}
+
+.paint-logo {
+  height: 1em;
+  width: 1em;
+}
+
+.company-name {
+  color: #FFFFFF;
+  font-size: 4vh;
+}
+
+.nav-items {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.shares-icon,
+.playlist,
+.videos {
+  height: 1em;
+  width: 1em;
+}
+
+.nav-bar {
+  font-size: 2vh;
+  color: #7F7F7F;
+}
+
+.shares {
+  color: #E8E8E8;
+}
+
+.shares-title {
+  margin: 0px 39px;
+  padding: 20px 0px;
+  color: #4F4F4F;
+}
+
+/* ~~ Card  design ~~ */
+.card {
+  height: 374px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 6px 5px 5px #D3D3D3;
+}
+
+.card-header {
+  width: 100%;
+  height: 36%;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.arrow-container {
+  height: 3.5em;
+  width: 3.5em;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.arrow {
+  height: 2em;
+  width: 2em;  
+}
+
+.view-display {
+  margin: 15px;
+}
+
+.views {
+  color: #FFFFFF;
+  font-size: 0.75em;
+}
+
+.view-count {
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+.card1 {
+  background-image: url(./assets/Sunflowers.jpeg);
+}
+
+.card2 {
+  background-image: url(./assets/Bridge.jpeg);
+}
+
+.card3 {
+  background-image: url(./assets/Field.jpeg);
+}
+
+.card4 {
+  background-image: url(./assets/Seaside.jpeg);
+}
+
+.card5 {
+  background-image: url(./assets/Rocks.jpeg);
+}
+
+.card6 {
+  background-image: url(./assets/Sunset.jpeg);
+}
+
+.card7 {
+  background-image: url(./assets/Trees.jpeg);
+}
+
+.card8 {
+  background-image: url(./assets/Waterlillies.jpeg);  
+}
+
+.card-bottom {
+  width: 100%;
+  height: 64%;
+  background: #FFFFFF; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 15px;
+}
+
+.recipeint-name,
+.playlist-name {
+  color: #6B6B6B;
+  font-weight: bold;
+  size: 1em;
+  padding-bottom: 5px;
+}
+
+.date {
+  color: #B8B9BA;
+  size: 0.75em
+}
+
+.link-box {
+  background: #EFEFEF;
+  color: #888888;
+  padding: 10px 5px;
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+
+.playlist,
+.attachments {
+  color: #6B6B6B;
+  font-size: 0.75em;
+  padding-bottom: 4px;
+}
+
+.attachment-nums {
+  color: #29B4FA;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+
+/* ~~ Card grid section ~~ */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  height: 100%;
+  width: 100%;
+  /* grid-template-rows: repeat( auto-fill, minmax(375, 1fr) ); */
+}
+
+
+
+
 /* triange color: #29B4FA */
+/* font color in heading: 90909 */
+/*shares font color: e8e8e8
