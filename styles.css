@@ -38,6 +38,8 @@ main {
 
 .admin-dropdown {
   display: flex;
+  align-items: center;
+  margin: 10px;
 }
 
 .admin-icon {
@@ -50,6 +52,7 @@ main {
 .admin-user {
   color: #26A7E9;
   font-size:2vh;
+  margin: 0px 5px;
 }
 
 .drop-down {
@@ -61,13 +64,14 @@ nav {
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 .branding {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  margin-right: 10px;
+  width: 40%;
   height: 100%;
 }
 
@@ -81,8 +85,32 @@ nav {
   font-size: 4vh;
 }
 
+.nav-items {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.shares-icon,
+.playlist,
+.videos {
+  height: 1em;
+  width: 1em;
+}
+
+.nav-bar {
+  font-size: 2vh;
+  color: #7F7F7F;
+}
+
+.shares {
+  color: #E8E8E8;
+}
+
+
 
 
 
 /* triange color: #29B4FA */
 /* font color in heading: 90909 */
+/*shares font color: e8e8e8
