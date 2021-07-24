@@ -108,14 +108,14 @@ nav {
 }
 
 .shares-title {
-  margin: 0px 39px;
+  margin: 0px 30px;
   padding: 20px 0px;
   color: #4F4F4F;
 }
 
 /* ~~ Card  design ~~ */
 .card {
-  height: 374px;
+  height: 400px;
   width: 300px;
   margin: auto;
   box-shadow: 6px 5px 5px #D3D3D3;
@@ -205,7 +205,7 @@ nav {
 .playlist-name {
   color: #6B6B6B;
   font-weight: bold;
-  size: 1em;
+  size: 0.8em;
   padding-bottom: 5px;
 }
 
@@ -222,7 +222,7 @@ nav {
   border-radius: 5px;
 }
 
-.playlist,
+.playlist-title,
 .attachments {
   color: #6B6B6B;
   font-size: 0.75em;
@@ -242,16 +242,13 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1em 0em;
-  /* height: 100%;
-  width: 100%; */
-  /* grid-template-rows: repeat( auto-fill, minmax(375, 1fr) ); */
 }
 
 @media screen and (min-width: 625px) {
 
   nav {
     justify-content: flex-start;
-    width: 50%;
+    width: 60%;
     margin-left: 15px;
   }
 
@@ -273,9 +270,9 @@ nav {
   }
 
   .playlist {
-    height: 2em;
-    width: 2em;
-    margin-bottom: 10px;
+    height: 1.5em;
+    width: 1.5em;
+    margin-bottom: 13px;
   }
 
   .playlists,
@@ -291,6 +288,14 @@ nav {
   font-size: 1em;
   padding: 5px;
   margin-bottom: 10px;
+}
+
+.admin-user {
+  font-size: 0.85em;
+}
+
+.grid-container {
+  margin: 0px 15px;
 }
 
 
