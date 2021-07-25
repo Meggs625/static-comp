@@ -24,7 +24,6 @@ body, html {
 }
 
 main {
-  background: #EFEFEF;
   height: 86vh;
   width: 100%;
 }
@@ -60,13 +59,6 @@ main {
   width: 0.75em;
 }
 
-nav {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
 .branding {
   display: flex;
   justify-content: flex-end;
@@ -75,15 +67,22 @@ nav {
   height: 100%;
 }
 
+.company-name {
+  color: #FFFFFF;
+  font-size: 1.75em;
+  font-family: 'Aleo', serif;
+}
+
 .paint-logo {
   height: 1em;
   width: 1em;
 }
 
-.company-name {
-  color: #FFFFFF;
-  font-size: 1.75em;
-  font-family: 'Aleo', serif;
+nav {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-items {
@@ -93,8 +92,8 @@ nav {
 }
 
 .shares-icon,
-.playlist,
-.videos {
+.playlist-icon,
+.videos-icon {
   height: 1em;
   width: 1em;
 }
@@ -236,7 +235,6 @@ nav {
   margin-bottom: 5px;
 }
 
-
 /* ~~ Card grid section ~~ */
 
 .grid-container {
@@ -263,14 +261,14 @@ nav {
   }
 
   .shares-icon,
-  .videos {
+  .videos-icon {
     height: 1.25em;
     width: 1.25em;
     margin-bottom: 15px;
     margin-left:10px;
   }
 
-  .playlist {
+  .playlist-icon {
     height: 1.5em;
     width: 1.5em;
     margin-bottom: 13px;
@@ -289,15 +287,15 @@ nav {
   font-size: 1em;
   padding: 5px;
   margin-bottom: 10px;
-}
+  }
 
-.admin-user {
+  .admin-user {
   font-size: 0.85em;
-}
+  }
 
-.grid-container {
+  .grid-container {
   margin: 0px 15px;
-}
+  }
 
 }
 
