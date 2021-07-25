@@ -20,12 +20,12 @@ body, html {
 .main-header{
   background: #2B2B2B;
   height: 12vh;
-  width: 100%;  
+  width: 100vw;  
 }
 
 main {
   height: 86vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .logo-admin {
@@ -260,7 +260,7 @@ nav {
   }
 
   nav {
-    justify-content: flex-start;
+    justify-content: flex-start;    
     width: 60%;
     margin-left: 15px;
   }
