@@ -245,21 +245,32 @@ nav {
 
 @media screen and (min-width: 763px) {
 
+  
+  .logo-admin {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .admin-user {
+  font-size: 0.85em;
+  }
+  
+  .company-name {
+    font-size: 2.5em;
+  }
+
   nav {
     justify-content: flex-start;
     width: 60%;
     margin-left: 15px;
   }
 
-  .logo-admin {
-    flex-direction: column;
-    align-items: flex-end;
+  .nav-bar {
+  font-size: 1em;
+  padding: 5px;
+  margin-bottom: 10px;
   }
-
-  .company-name {
-    font-size: 2.5em;
-  }
-
+  
   .shares-icon,
   .videos-icon {
     height: 1.25em;
@@ -273,24 +284,14 @@ nav {
     width: 1.5em;
     margin-bottom: 13px;
   }
-
-  .playlists,
-  .video {
-    margin-right: 20px;
-  }
-
+  
   .shares {
     margin-right: 25px;
   }
 
-  .nav-bar {
-  font-size: 1em;
-  padding: 5px;
-  margin-bottom: 10px;
-  }
-
-  .admin-user {
-  font-size: 0.85em;
+  .playlists,
+  .video {
+    margin-right: 20px;
   }
 
   .grid-container {
