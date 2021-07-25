@@ -245,14 +245,25 @@ nav {
 
 @media screen and (min-width: 763px) {
 
+  .main-header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
   
   .logo-admin {
     flex-direction: column;
     align-items: flex-end;
+    height: 100%;
+    width: 40%;
   }
 
   .admin-user {
   font-size: 0.85em;
+  }
+
+  .branding {
+    width: 100%;
   }
   
   .company-name {
