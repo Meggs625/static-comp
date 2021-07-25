@@ -243,7 +243,7 @@ nav {
   grid-gap: 1em 0em;
 }
 
-@media screen and (min-width: 763px) {
+@media screen and (min-width: 775px) {
 
   .main-header {
     display: flex;
