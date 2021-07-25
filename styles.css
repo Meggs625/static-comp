@@ -20,13 +20,12 @@ body, html {
 .main-header{
   background: #2B2B2B;
   height: 12vh;
-  width: 100%;  
+  width: 100vw;  
 }
 
 main {
-  background: #EFEFEF;
   height: 86vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .logo-admin {
@@ -60,13 +59,6 @@ main {
   width: 0.75em;
 }
 
-nav {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
 .branding {
   display: flex;
   justify-content: flex-end;
@@ -75,15 +67,22 @@ nav {
   height: 100%;
 }
 
+.company-name {
+  color: #FFFFFF;
+  font-size: 1.75em;
+  font-family: 'Aleo', serif;
+}
+
 .paint-logo {
   height: 1em;
   width: 1em;
 }
 
-.company-name {
-  color: #FFFFFF;
-  font-size: 1.75em;
-  font-family: 'Aleo', serif;
+nav {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-items {
@@ -93,8 +92,8 @@ nav {
 }
 
 .shares-icon,
-.playlist,
-.videos {
+.playlist-icon,
+.videos-icon {
   height: 1em;
   width: 1em;
 }
@@ -236,7 +235,6 @@ nav {
   margin-bottom: 5px;
 }
 
-
 /* ~~ Card grid section ~~ */
 
 .grid-container {
@@ -247,33 +245,48 @@ nav {
 
 @media screen and (min-width: 763px) {
 
-  nav {
-    justify-content: flex-start;
-    width: 60%;
-    margin-left: 15px;
-  }
-
+  
   .logo-admin {
     flex-direction: column;
     align-items: flex-end;
   }
 
+  .admin-user {
+  font-size: 0.85em;
+  }
+  
   .company-name {
     font-size: 2.5em;
   }
 
+  nav {
+    justify-content: flex-start;    
+    width: 60%;
+    margin-left: 15px;
+  }
+
+  .nav-bar {
+  font-size: 1em;
+  padding: 5px;
+  margin-bottom: 10px;
+  }
+  
   .shares-icon,
-  .videos {
+  .videos-icon {
     height: 1.25em;
     width: 1.25em;
     margin-bottom: 15px;
     margin-left:10px;
   }
 
-  .playlist {
+  .playlist-icon {
     height: 1.5em;
     width: 1.5em;
     margin-bottom: 13px;
+  }
+  
+  .shares {
+    margin-right: 25px;
   }
 
   .playlists,
@@ -281,28 +294,9 @@ nav {
     margin-right: 20px;
   }
 
-  .shares {
-    margin-right: 25px;
+  .grid-container {
+  margin: 0px 15px;
   }
 
-  .nav-bar {
-  font-size: 1em;
-  padding: 5px;
-  margin-bottom: 10px;
 }
 
-.admin-user {
-  font-size: 0.85em;
-}
-
-.grid-container {
-  margin: 0px 15px;
-}
-
-
-}
-
-
-/* triange color: #29B4FA */
-/* font color in heading: 90909 */
-/*shares font color: e8e8e8
