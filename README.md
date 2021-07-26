@@ -7,8 +7,8 @@ Module 2: Solo Challenge
   - [Illustrations](#illustrations)
   - [Install + Setup](#set-up)
   - [Contributors](#contributors)
-	- [Wins](#wins)
-	- [Challenges + Improvements](#challenges-+-Improvements)
+  - [Wins](#wins)
+  - [Challenges + Improvements](#challenges-+-Improvements)
   - [Project Specs](#project-specs)
   - [Deployed Site](#depolyed-site)
 
